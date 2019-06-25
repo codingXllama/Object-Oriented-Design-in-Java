@@ -9,12 +9,12 @@ public class Human {
     String eyeColor;
 
     //creating the class constructor, which constructs human objects
-    public Human()
+    public Human(String name, int age, int heightInInches, String eyeColor)
     {
-        name="Osama";
-        age=12;
-        heightInInches=72;
-        eyeColor="green";
+        this.name=name;
+        this.age=age;
+        this.heightInInches=heightInInches;
+        this.eyeColor=eyeColor;
     }
 
     //Creating a speak method
@@ -23,6 +23,8 @@ public class Human {
         System.out.println("Hello my name is: "+name);
         System.out.println("I am "+heightInInches+ " inches tall");
         System.out.println("I am "+age+ "years old ");
+        System.out.println("My Eye color is: "+eyeColor);
+        System.out.println();
     }
 
     public void Eat()
