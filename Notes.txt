@@ -3,3 +3,18 @@
 >This means that Objects such as Tom,animal1,bird1,etc... Exists DURING application RUNTIME (the application runs)
 
 2. Object oriented programming is about reusing code and making code cleaner.
+3. Overriding = Replace. Basically you replace a method that you should be inheriting
+
+
+4. What is an interface?
+Interface is a Contract/Agreement.Any time a class want's to implement a method suppose fly().
+The interface want's that class to promise it will implement that fly() method.
+**THE KEYWORD USED: class1Name implements class2Name **
+**> A class is an "interface" if it's named after the functionality we are trying to "abstract " away.
+For example, if we want to
+5. Interface only have Abstract methods.
+6. Abstract Methods are methods with NO bodies (they don't have content within them)
+>An abstract method is an ABSTRACTION(avoidance) of the content with in it's method.
+>An Abstract CLASSES might not be instantiated/creating an element for it.
+>An Abstract CLASS REQUIRES subclasses to provide implementations for the abstract method
+7. A class can Only extend one OTHER class

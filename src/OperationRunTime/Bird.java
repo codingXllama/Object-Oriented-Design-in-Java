@@ -11,12 +11,10 @@ public class Bird extends Animal {
         //super() allows us to use the instance variables directly from the super class which is the Animal
         super(age, gender, weightInLbs);
     }
-    {
 
-    }
 
-    public void Fly()
-    {
-        System.out.println("I'am flying...");
-    }
+    //    public void Fly()
+    //    {
+    //        System.out.println("I'am flying...");
+    //    }
 }
