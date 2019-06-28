@@ -1,0 +1,14 @@
+Q1: When an application is running, thats when objects actually exist and do things. When the application is not running, there are no objects doing work in the application.
+Ans: True
+
+Q2: The new keyword is used to represent object creation.
+Ans: True
+
+Q3: A constructor method is a special method in a class that better NOT have the same name as the class it's defined in.
+Ans: False
+
+Q4:  Classes contain a special method called the constructor method. What is the purpose of this method?
+
+Ans: The constructor is special method containing instructions for object creation.
+In other words, its the so called birth method.
+Instructions for how the object will be born when the application starts up.
