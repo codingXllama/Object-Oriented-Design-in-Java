@@ -1,11 +1,11 @@
-<mxfile host="www.draw.io" modified="2019-10-24T02:04:26.564Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="36w4P9VOy7IGH1gh5auK" version="12.1.4" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-24T02:20:43.305Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="8HJkLr8CYUAp0IQZl4Dl" version="12.1.4" type="github" pages="1">
   <diagram id="NwGGABQjlJwgghnVcr5S" name="Page-1">
-    <mxGraphModel dx="1027" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2126" dy="901" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
         <mxCell id="yCWSV0LtRj6aALkYosJq-31" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Worker&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- salary: double&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- bonus: double&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Worker(aPersonName: String, dateString: String)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ income(): double&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ setBonus(currentBonus: double): void&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ isRich(): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="490" width="301" height="150" as="geometry"/>
+          <mxGeometry x="484.5" y="680.5" width="301" height="150" as="geometry"/>
         </mxCell>
         <mxCell id="yCWSV0LtRj6aALkYosJq-3" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;MyDate&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- day: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- month: int&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;- year: int&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ MyDate(d: MyDate)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+lessThan(x: Sortable) : boolean&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+MyDate(dayString: String)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+toString(): String&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+sameDay(someDateAndTime: MyDate): boolean&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="345" width="280" height="170" as="geometry"/>
@@ -14,7 +14,7 @@
           <mxGeometry x="520" y="60" width="230" height="150" as="geometry"/>
         </mxCell>
         <mxCell id="yCWSV0LtRj6aALkYosJq-6" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&amp;lt;&amp;lt;Abstract Class&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Adult&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Adult(aName: String, d: MyDate)&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ isRich(): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="518" y="310" width="255" height="115" as="geometry"/>
+          <mxGeometry x="518" y="430" width="255" height="115" as="geometry"/>
         </mxCell>
         <mxCell id="yCWSV0LtRj6aALkYosJq-8" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Sortable&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ lessThan(someObject: Sortable): boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="893" y="230" width="257" height="100" as="geometry"/>
@@ -51,18 +51,30 @@
           <mxGeometry x="310" y="380" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="yCWSV0LtRj6aALkYosJq-26" value="1..*" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;" vertex="1" parent="1">
-          <mxGeometry x="490" y="220" width="30" height="20" as="geometry"/>
+          <mxGeometry x="488" y="210" width="30" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="yCWSV0LtRj6aALkYosJq-30" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="yCWSV0LtRj6aALkYosJq-5">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="635" y="310" as="sourcePoint"/>
+            <mxPoint x="635" y="424" as="sourcePoint"/>
             <mxPoint x="727.5" y="300" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="yCWSV0LtRj6aALkYosJq-33" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="yCWSV0LtRj6aALkYosJq-6">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="645" y="490" as="sourcePoint"/>
+            <mxPoint x="646" y="678" as="sourcePoint"/>
             <mxPoint x="645" y="430" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yCWSV0LtRj6aALkYosJq-35" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="yCWSV0LtRj6aALkYosJq-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="750" y="165" as="sourcePoint"/>
+            <mxPoint x="910" y="165" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yCWSV0LtRj6aALkYosJq-36" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0.009;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="yCWSV0LtRj6aALkYosJq-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="310" y="428.5" as="sourcePoint"/>
+            <mxPoint x="886" y="335" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
       </root>
